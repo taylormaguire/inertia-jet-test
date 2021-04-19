@@ -9,8 +9,8 @@
         <div>
             <div class="max-w-7xl mx-auto py-10 sm:px-6 lg:px-8">
                 <form @submit.prevent="submit">
-                    <label for="first_name">Name:</label>
-                    <input id="first_name" v-model="form.name" />
+                    <label for="name">Name:</label>
+                    <input id="name" v-model="form.name" />
                     <div v-if="errors.name">{{ errors.name }}</div>
 
                     <label for="email">Email:</label>
